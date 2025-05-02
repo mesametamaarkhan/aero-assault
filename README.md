@@ -20,6 +20,8 @@ Aero Assault is a fast-paced 2D plane combat game built using C++ and SFML (Simp
 ### Step 1: Install SFML
 
 ```bash
+git clone https://github.com/mesametamaarkhan/aero-assault.git
+cd aero-assault
 sudo apt update
 sudo apt install libsfml-dev
 g++ main.cpp -o aero-assault -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
